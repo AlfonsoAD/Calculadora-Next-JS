@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import logoCalc from "../public/logoCalciOS-removebg-preview.png";
-const index = () => {
+const Index = () => {
   const router = useRouter();
 
   useEffect(() => {
@@ -18,4 +18,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
