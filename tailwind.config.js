@@ -14,6 +14,9 @@ module.exports = {
         "grayfull-ios": "#3d3d3c",
         "grayfull-ios-100": "#2b2b2b",
       },
+      animation: {
+        "spin-slow": "spin 2s linear infinite",
+      },
     },
   },
   plugins: [],
