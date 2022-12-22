@@ -12,8 +12,10 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="h-100vh bg-black flex flex-wrap justify-center items-center h-screen animate-spin-slow">
-      <Image src={logoCalc} alt="Logo calculadora" height="90" width="160" />
+    <div className="h-100vh bg-black flex flex-wrap justify-center items-center h-screen">
+      <div className=" animate-spin-slow">
+        <Image src={logoCalc} alt="Logo calculadora" height="90" width="160" />
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const calculadora = () => {
     ProcMat();
 
   return (
-    <div className="flex-col bg-black items-center justify-center">
+    <div className="flex-col bg-black items-center justify-center h-screen m-3">
       <div className="flex items-center justify-center">
         <InputNumber valor={resultado}></InputNumber>
       </div>
